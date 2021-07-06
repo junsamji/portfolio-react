@@ -8,8 +8,8 @@ function NaverMapAPI(){
       <NaverMap
         mapDivId={'maps-getting-started-uncontrolled'} //default: react-naver-map
         style={{
-          width: '100%',
-          height: '85vh'
+          width: '90%',
+          height: '70vh'
         }}
         defaultCenter={{ lat: 37.40042, lng: 127.11216 }} //초기 위치
         defaultZoom={17} //초기 확대 배율
