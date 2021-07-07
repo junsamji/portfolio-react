@@ -13,6 +13,9 @@ function NaverMapAPI(){
         }}
         defaultCenter={{ lat: 37.40042, lng: 127.11216 }} //초기 위치
         defaultZoom={17} //초기 확대 배율
+        zoomControl={false}
+        draggable={true}
+        mapTypeControl={true}
       >
       <Marker
           key={1}
