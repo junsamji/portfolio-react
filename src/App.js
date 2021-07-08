@@ -1,11 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
+import Header from './Header';
 import { Home, About, Sub } from './';
 
 function App() {
   return (
     <Router>
+      <Header/>
       <div>
         <span className='App-header'>
             <span className='App-content'>
@@ -17,14 +19,14 @@ function App() {
             </span>
            
             <span className='App-content'>
-              <Link to="/sub">Sub</Link>
+              <Link to="/sub">Corona</Link>
             </span>
         </span>   
           
 
         <Route exact path='/' component={Home}/>
         <Route path='/about' component={About}/>
-        <Route path='/sub' component={Sub}/>
+        <Route path='/sub' component={Sub}/>  
       </div>
     </Router>
   );
