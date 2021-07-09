@@ -9,8 +9,8 @@ class Header extends Component {
             <div>
             <Animated animationIn="bounceInLeft" animationOUt="fadeOut" isVisible={true}>
             <div>
-                <span className='App-header'>
-                    <span className='App-content'>REACT</span>                    
+                <span className="App-header">
+                    <span className="App-content">REACT</span>                    
                     {/*<span className='App-menu'><img src={menu} alt="menu" /></span>*/}
                 </span>
             </div>
