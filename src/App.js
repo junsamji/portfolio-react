@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import {Animated} from 'react-animated-css';
 import './App.css';
-import Header from './Header';
+/*import Header from './Header';*/
 import { Home, About, Sub } from './';
 
 function App() {
