@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <Router>
+      <Router basename="/portfolio-react">
         {/*<Header />*/}
       <div className="sticky">
         <Animated animationIn="bounceInLeft" animationOUt="fadeOut" isVisible={true}>
