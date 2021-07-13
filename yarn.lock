@@ -9129,6 +9129,18 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-animated-css-onscroll@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-animated-css-onscroll/-/react-animated-css-onscroll-1.2.1.tgz#06c07e0053efdbd9e2538ab81ba67298c37a6a74"
+  integrity sha512-fxURJKBn8wIUu6QsNLav0GViGgDLnwZ7cS8nfBDxZbCk4E581OCKGNLT/pE0Cyapmw8XCQ/zRRIlb+z/rK5VdA==
+  dependencies:
+    babel-polyfill "^6.23.0"
+    browser-or-node "^1.0.2"
+    lodash.throttle "^4.1.1"
+    prop-types "^15.5.10"
+    react "^15.6.1"
+    react-animated-css "^1.2.1"
+
 react-animated-css@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/react-animated-css/-/react-animated-css-1.2.1.tgz#6289bec9d560254791a7f5c4fa0f99e01ef0a3a2"
