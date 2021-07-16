@@ -6,7 +6,7 @@ class Home extends React.Component {
     render() {
         return(
             <div>
-                <AnimatedOnScroll animationIn="headShake" animationInDuration={600}>
+                <AnimatedOnScroll animationIn="fadeIn" animationInDuration={600}>
                 <div className="homediv">
                     <h1> Home </h1>
                     <h1> Home </h1>
@@ -25,7 +25,7 @@ class Home extends React.Component {
                     <h2>test</h2>
                 </div>
 				</AnimatedOnScroll>
-				<AnimatedOnScroll animationIn="flipInX" animationInDuration={600}>
+				<AnimatedOnScroll animationIn="fadeIn" animationInDuration={600}>
                 <div className="homediv">
                     <h1> Home </h1>
                     <h1> Home </h1>
@@ -34,7 +34,7 @@ class Home extends React.Component {
                     <h1> Home </h1>
                 </div>
 				</AnimatedOnScroll>
-				<AnimatedOnScroll animationIn="flipInY" animationInDuration={600}>
+				<AnimatedOnScroll animationIn="fadeIn" animationInDuration={600}>
                 <div className="homediv">
                     <h2>test</h2>
                     <h2>test</h2>
