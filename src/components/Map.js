@@ -1,15 +1,17 @@
 import React from 'react';
 import { RenderAfterNavermapsLoaded, NaverMap, Marker } from 'react-naver-maps';
+import './components.css'
 
 function NaverMapAPI(){
     const navermaps = window.naver.maps;
     
     return(
+      <div className="Map-content">
       <NaverMap
         mapDivId={'maps-getting-started-uncontrolled'} //default: react-naver-map
         style={{
-          width: '90%',
-          height: '70vh'
+          width: '80%',
+          height: '60vh'
         }}
         defaultCenter={{ lat: 37.40042, lng: 127.11216 }} //초기 위치
         defaultZoom={17} //초기 확대 배율
@@ -24,6 +26,7 @@ function NaverMapAPI(){
           onClick={() => {alert('이곳은 한컴 타워입니다.');}}
       />
       </NaverMap>
+      </div>
     );
   }
   

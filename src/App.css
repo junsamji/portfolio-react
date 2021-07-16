@@ -11,23 +11,34 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 15vh;
+  min-height: 5vh;
   min-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(15px + 3vmin);
+  font-size: calc(10px + 3vmin);
   color: white;
+  padding-bottom: 1vh;
 }
 
 .App-content {
+  background-color: transparent;
   color: #61dafb;
   margin: auto;
 }
 
+.App-menu {
+  margin-right: 10px;
+}
+
 a {
   text-decoration: none;
-  color:white;
+  color:#61dafb;
+}
+
+div .sticky {
+  position: sticky;
+  top:0px;
 }
 
 @keyframes App-logo-spin {
