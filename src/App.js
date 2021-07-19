@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import {Animated} from 'react-animated-css';
 import './App.css';
 /*import Header from './Header';*/
 import { Home, About, Sub } from './';
+import NotFound from './pages/NotFound';
 
 function App() {
   const [text, setText] = useState("Portfolio");
@@ -41,11 +42,14 @@ function App() {
         </Animated>
       </div>
 
-      <div>
+      <main>
+        <Switch>
           <Route exact path='/' component={Home}/>
           <Route path='/about' component={About}/>
           <Route path='/sub' component={Sub}/>  
-      </div>
+          <Route component={NotFound}/>
+        </Switch>
+      </main>
       </Router>
     </div>
   );
