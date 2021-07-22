@@ -4,7 +4,8 @@ import Body from '../components/Body';
 class Home extends React.Component {
     render() {
         return(
-            <div>
+            <div id="root">
+                <h1>i'm...</h1>
                 <Body />
             </div>
         );
