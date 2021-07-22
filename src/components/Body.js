@@ -5,38 +5,44 @@ import './Body.css'
 function Body() {
     return (
         <div>
-            <AnimatedOnScroll animationIn="headShake" animationInDuration={600}>
-                <div className="homediv">
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                </div>
-                </AnimatedOnScroll>
-                <div className="homediv">
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                </div>
-                <div className="homediv">
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                </div>
-                <div className="homediv">
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                </div>
+            <AnimatedOnScroll animationIn="fadeInDown" animationOut="fadeOut" animationInDuration={600}>
+            <div className="homediv">
+                <h1> Home </h1>
+                <h1> Home </h1>
+                <h1> Home </h1>
+                <h1> Home </h1>
+                <h1> Home </h1>
+            </div>
+            </AnimatedOnScroll>
+            <AnimatedOnScroll animationIn="fadeInDown" animationOut="fadeOut" animationInDuration={600}>
+            <div className="homediv">
+                <h2>test</h2>
+                <h2>test</h2>
+                <h2>test</h2>
+                <h2>test</h2>
+                <h2>test</h2>
+                <h2>test</h2>
+            </div>
+            </AnimatedOnScroll>
+            <AnimatedOnScroll animationIn="fadeInDown" animationOut="fadeOut" animationInDuration={600}>
+            <div className="homediv">
+                <h1> Home </h1>
+                <h1> Home </h1>
+                <h1> Home </h1>
+                <h1> Home </h1>
+                <h1> Home </h1>
+            </div>
+            </AnimatedOnScroll>
+            <AnimatedOnScroll animationIn="fadeInDown" animationOut="fadeOut" animationInDuration={600}>
+            <div className="homediv">
+                <h2>test</h2>
+                <h2>test</h2>
+                <h2>test</h2>
+                <h2>test</h2>
+                <h2>test</h2>
+                <h2>test</h2>
+            </div>
+            </AnimatedOnScroll>
         </div>
     );
 };
