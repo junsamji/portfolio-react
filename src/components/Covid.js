@@ -23,7 +23,6 @@ const Covid = () => {
         
         const makeData = (items) => {
             // items.forEach(item => console.log(item)); 데이터확인용
-            //reduce메서드 학습하기 이전,현재임.
             const arr = items.reduce((acc, cur) => {
 
                 //currentDate에 cur의 날짜를 날짜형식으로 담는다.
