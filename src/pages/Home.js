@@ -1,49 +1,12 @@
 import React from 'react';
-import {AnimatedOnScroll} from "react-animated-css-onscroll";
-import './Home.css'
+import Body from '../components/Body';
 
 class Home extends React.Component {
     render() {
         return(
-            <div>
-                <AnimatedOnScroll animationIn="headShake" animationInDuration={600}>
-                <div className="homediv">
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                </div>
-                </AnimatedOnScroll>
-				<AnimatedOnScroll animationIn="fadeIn" animationInDuration={600}>
-                <div className="homediv">
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                </div>
-				</AnimatedOnScroll>
-				<AnimatedOnScroll animationIn="flipInX" animationInDuration={600}>
-                <div className="homediv">
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                    <h1> Home </h1>
-                </div>
-				</AnimatedOnScroll>
-				<AnimatedOnScroll animationIn="flipInY" animationInDuration={600}>
-                <div className="homediv">
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                    <h2>test</h2>
-                </div>
-				</AnimatedOnScroll>
+            <div id="root">
+                <h1>i'm...</h1>
+                <Body />
             </div>
         );
     }
